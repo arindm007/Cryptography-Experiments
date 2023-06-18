@@ -7,13 +7,13 @@
 #### Exp6-GCD using eucledian [link](Exp6_GCD.java)
 #### Exp7-Extended Eucledian [link](Exp7_ExtendedEicledian.java)
 #### Exp8-Encrypt Decrypt String using Xor [link](Exp8_StringXOR.java)
-#### Exp9-Multipicative Inverse
-#### Exp10-Additive Inverse
-#### Exp11-Multiplicative Cipher
-#### Exp12-Affine Cipher
-#### Exp13-AutoKey Cipher
-#### Exp14-Monoalphabetic Cipher
-#### Exp15-Vignere Cipher
-#### Exp16-Hill Cipher
-#### Exp17-DES Algorithm
+#### Exp9-Multipicative Inverse [link](Exp9_MultiplicativeInverse.java)
+#### Exp10-Additive Inverse [link](Exp10_AdditiveInv.java)
+#### Exp11-Multiplicative Cipher [link](Exp11_MultiplicativeCipher.java)
+#### Exp12-Affine Cipher [link](Exp12_AffineCipher.java)
+#### Exp13-AutoKey Cipher [link](Exp13_AutoKeyCipher.java)
+#### Exp14-Monoalphabetic Cipher [link](Exp14_MonoAlphabeticCipher.java)
+#### Exp15-Vignere Cipher [link](Exp15_VignereCipher.java)
+#### Exp16-Hill Cipher [link](Exp16_HillCipher.java)
+#### Exp17-DES Algorithm [link](Exp17_DES.java)
 
