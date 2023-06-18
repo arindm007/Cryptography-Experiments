@@ -8,11 +8,16 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.annotation.Target;
+
+import javax.xml.transform.Source;
 
 public class Exp4_ExternalFile {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static BufferedWriter writer;
 
+    public static String Source ="E:\\OPJU\\6th Sem FEB2023_JUNE2023\\Cryptography\\souce.txt";
+    public static String Target ="E:\\OPJU\\6th Sem FEB2023_JUNE2023\\Cryptography\\target.txt";
     public static void main(String[] args) {
         int choice;
         while (true) {
@@ -54,8 +59,8 @@ public class Exp4_ExternalFile {
 
     public static void encrypt() throws IOException {
         System.out.println();
-        BufferedReader inputFile = new BufferedReader(new FileReader("C:/Users/Arindam/OneDrive/Desktop/Cryptography/source.txt"));
-        writer = new BufferedWriter(new FileWriter("C:/Users/Arindam/OneDrive/Desktop/Cryptography/target.txt"));
+        BufferedReader inputFile = new BufferedReader(new FileReader(Source));
+        writer = new BufferedWriter(new FileWriter(Target));
 
         int ch;
         while ((ch = inputFile.read()) != -1) {
@@ -70,8 +75,8 @@ public class Exp4_ExternalFile {
 
     public static void decrypt() throws IOException {
         System.out.println();
-        BufferedReader inputFile = new BufferedReader(new FileReader("C:/Users/Arindam/OneDrive/Desktop/Cryptography/target.txt"));
-        writer = new BufferedWriter(new FileWriter("C:/Users/Arindam/OneDrive/Desktop/Cryptography/source.txt"));
+        BufferedReader inputFile = new BufferedReader(new FileReader(Source));
+        writer = new BufferedWriter(new FileWriter(Target));
 
         int ch;
         while ((ch = inputFile.read()) != -1) {
@@ -86,7 +91,7 @@ public class Exp4_ExternalFile {
 
     public static void viewEncrypted() throws IOException {
         System.out.println();
-        BufferedReader inputFile = new BufferedReader(new FileReader("C:/Users/Arindam/OneDrive/Desktop/Cryptography/source.txt"));
+        BufferedReader inputFile = new BufferedReader(new FileReader(Target));
 
         int ch;
         while ((ch = inputFile.read()) != -1) {
@@ -99,7 +104,7 @@ public class Exp4_ExternalFile {
 
     public static void viewDecrypted() throws IOException {
         System.out.println();
-        BufferedReader inputFile = new BufferedReader(new FileReader("C:/Users/Arindam/OneDrive/Desktop/Cryptography/source.txt"));
+        BufferedReader inputFile = new BufferedReader(new FileReader(Source));
 
         int ch;
         while ((ch = inputFile.read()) != -1) {
