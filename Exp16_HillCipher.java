@@ -1,6 +1,6 @@
 // Hill Cipher
 
-public class Exp16{
+public class Exp16_HillCipher{
 	static void getKeyMatrix(String key , int keyMatrix[][]){
 		int k =0;
 		for(int i=0; i<3;i++){

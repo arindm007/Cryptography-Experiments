@@ -7,7 +7,7 @@
  */
 import java.util.Scanner;
 
-public class Exp3 {
+public class Exp3_PrimeFactor {
 
     public static void isPrime(int n){
         while (n%2 == 0) {

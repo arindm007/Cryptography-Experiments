@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Exp6
  */
-public class Exp6 {
+public class Exp6_GCD {
 
     public static int gcd(int a, int b) {
         if (b == 0) {

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exp9 {
+public class Exp9_MultiplicativeInverse {
 
     public static void mulInv(int a, int b){
             int r1=a;int r2=b;

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exp10 {
+public class Exp10_AdditiveInv {
 
     public static String encrypt(String text,int s  ){
 		String result="";

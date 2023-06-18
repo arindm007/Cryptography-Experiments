@@ -2,7 +2,7 @@
 
 //wap to multiplicative cipher
 import java.util.Scanner;
-class Exp11{
+class Exp11_MultiplicativeCipher{
 	public static String encrypt(String text,int s  ){
 		String result="";
 		for(int i=0;i<text.length();i++){

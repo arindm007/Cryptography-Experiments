@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exp7 {
+public class Exp7_ExtendedEucledian {
       /*
          * s1=1,s2=0,s=0
          * t1=0,t2=1,t=0

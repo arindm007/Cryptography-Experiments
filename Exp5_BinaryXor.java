@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class Exp5 {
+public class Exp5_BinaryXor {
 
     public static String xor(String a,String b){
         int length = Math.min(a.length(), b.length());

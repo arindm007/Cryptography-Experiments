@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exp13 {
+public class Exp13_AutoKeyCipher {
   
 	public static void main(String args[]){ 
 	Scanner sc = new Scanner(System.in);

@@ -9,7 +9,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Exp4 {
+public class Exp4_ExternalFile {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static BufferedWriter writer;
 

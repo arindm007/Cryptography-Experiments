@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exp14 {
+public class Exp14_MonoAlphabeticCipher {
     public static char p[]={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
 	public static char ch[]={'N','0','A','T','R','B','E','C','F','U','X','D','Q','G','Y','L','K','H','V','J','M','I','P','Z','S','W'};
 	

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Exp12
  */
-public class Exp12 {
+public class Exp12_AffineCipher {
 
     public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);

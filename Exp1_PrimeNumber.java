@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Exp1
  */
-public class Exp1 {
+public class Exp1_PrimeNumber {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
