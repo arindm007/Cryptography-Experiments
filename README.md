@@ -5,7 +5,7 @@
 #### Exp4-External file encryption Decryption [link](Exp4_ExternalFile.java)
 #### Exp5-Binary Number XOR [link](Exp5_BinaryXor.java)
 #### Exp6-GCD using eucledian [link](Exp6_GCD.java)
-#### Exp7-Extended Eucledian [link](Exp7_ExtendedEicledian.java)
+#### Exp7-Extended Eucledian [link](Exp7_ExtendedEucledian.java)
 #### Exp8-Encrypt Decrypt String using Xor [link](Exp8_StringXOR.java)
 #### Exp9-Multipicative Inverse [link](Exp9_MultiplicativeInverse.java)
 #### Exp10-Additive Inverse [link](Exp10_AdditiveInv.java)
